@@ -102,6 +102,7 @@ void robot::charge()
   if (battery >= 50)
     ;
   {
+    battery += 300;
     cout << callsign << " is running out of battery:RECHARGING!! "
                         "(battery: "
          << battery << ")";
